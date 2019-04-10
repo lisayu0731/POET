@@ -1,7 +1,7 @@
 {
 	"common":{
 		"filters":"Filters",
-		"timeRange":"Time Range",
+		"timeRange":"Zeitabschnitt",
 		"dateRange":"Date Range",
 		"priceRange":"Price Range",
 		"banSelection":"Please select the date first!",
