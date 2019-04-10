@@ -1,0 +1,276 @@
+{
+	"common":{
+		"filters":"选择",
+		"timeRange":"时间区间",
+		"dateRange":"日期区间",
+		"priceRange":"价格区间",
+		"banSelection":"请先选择日期！",
+		"ok":"好",
+		"executed":"已执行",
+		"canceled":"已撤销",
+		"all":"所有的",
+		"matched":"匹配的",
+		"profile":"个人资料",
+		"signOut":"注销",
+		"language":"语言",
+		"languagename":"简体中文",
+		"darkTheme":"夜间模式",
+		"setting":"设置",
+		"sendFeedback":"发送反馈",
+		"loginFailed":"登录失败!",
+		"submit":"提交",
+		"success":"成功",
+		"fail":"失败"
+	},
+	"menu":{
+		"dark":"黑暗",
+		"light":"明亮"
+	},
+	"page404":{
+		"pageNotFound":"页面没有找到",
+		"hintMessage":"我们好像找不到您要查找的页面，请检查以确保您已正确输入网址。",
+		"homepageButton":"回到主页"
+	},
+	"page500":{
+		"serverError":"对不起,服务器错误",
+		"hintMessage":"服务器可能出了一点问题，我们的工程师正在全力抢修，请稍后尝试。",
+		"homepageButton":"回到主页"
+	},
+	"traderHeader":{
+		"home":"主页",
+		"scheduleADemo":"安排演示",
+		"poetExplorer":"P<span class='lightred--text'><i>o</i></span>ET 探索器",
+		"poetOrderHistory":"P<span class='lightred--text'><i>o</i></span>ET 报单历史记录",
+		"poetOrderReplay":"PoET 报单回滚",
+		"PoetOrderHashes":"PoET 报单哈希",
+		"traderCreditScore":"交易信用积分",
+		"traderPortal":"个人及企业端",
+		"traderMyOrderHistory":"我的报单历史",
+		"traderMyOrderHashes":"我的报单哈希",
+		"login":"登录",
+		"selectTheme":"选择风格"
+	},
+	"regulatorHeader":{
+		"home":"主页",
+		"RegulatorLogin":"监管部门登录",
+		"watchlist":"监控名单",
+		"PoETAddressAudit":" PoET 地址审计"
+	},
+	"order":{
+		"orderReplay":{
+			"title":"P<span class='lightred--text'><i>o</i></span>ET 报单回滚",
+			"TabName":"PoET 报单回滚",
+			"searchPlaceHolder":"使用期货代码 / 股票代码 / 区块链地址 / 交易哈希值搜索",
+			"binance":"币安",
+			"lastPrice":"最新成交价",
+			"change":" 24小时变化",
+			"high":"24小时最高",
+			"low":" 24小时最低",
+			"volume":"24小时成交量",
+			"right":{
+				"search":"搜索",
+				"change":"变化",
+				"volume":"成交量",
+				"pair":"交易对",
+				"price":"价格",
+				"tradeHistory":"交易记录"
+			}
+		},
+		"orderHistory":{
+			"title":"P<span class='lightred--text'><i>o</i></span>ET 探索器 - 报单 & 成交：完整的报单记录",
+			"TabName":"PoET 报单历史记录",
+			"kraken":"K 网",
+			"date":"日期",
+			"time":"时间",
+			"volume":"成交量",
+			"bid":"买单",
+			"ask":"卖单",
+			"orderResult":"成交结果",
+			"notes":"备注"
+		},
+		"orderHashes":{
+			"title":"P<span class='lightred--text'><i>o</i></span>ET 报单哈希",
+			"TabName":"PoET 报单哈希",
+			"kraken":"K 网",
+			"date":"日期",
+			"ethereumTxHash":"以太坊交易哈希",
+			"universaTxHash":"秘猿科技交易哈希"
+		}
+	},
+	"mytcs":{
+		"address":"地址",
+		"mytcs":{
+			"tabName":"我的交易信用积分",
+			"traderTitle":"交易信用积分",
+			"message":"你的信用差",
+			"status":{
+				"bad":"极差",
+				"poor":"差",
+				"fair":"一般",
+				"good":"良好",
+				"excellent":"优秀"
+			},
+			"chartsLabel":{
+			"disciplinaryActions":"违规行为",
+			"sipPower":"SIP",
+			"creditAge":"信用纪录历史",
+			"ordersHashed":"已哈希报单",
+			"canceledOrders":"已撤销报单"
+			},
+			"updated":"更新于2019年2月20日"
+		},
+		"myOrderHistory":{
+			"tabName":"我的报单历史",
+			"date":"日期",
+			"time":"时间 (+UTC)",
+			"market":"市场",
+			"instrument":"品种",
+			"volume":"成交量",
+			"bid":"卖单",
+			"ask":"买单",
+			"orderResult":"成交结果",
+			"notes":"备注"
+		},
+		"myOrderHashes":{
+			"tabName":"我的报单哈希"
+		}
+	},
+	"tscInfo":{
+			"creditFactors":"你的信用评分要素",
+			"help":"你可以通过查看你的信用评分要素了解如何提升信用。",
+			"viewDatils":"了解更多",
+			"myTSC":"返回我的交易信用积分",
+			"creditAge":{
+				"tabName":" 信用累计时间",
+				"mediumImpact":"中度关联",
+				"info":"你的信用评分历史很短",
+				"warn":"监管部门通常希望看到你负责任地进行交易。"
+			},
+			"ordersHashed":{
+				"tabName":"已哈希报单记录",
+				"highImpact":"高度关联",
+				"info":"你的报告上已经存在大量已哈希的报单记录",
+				"warn":"监管部门通常希望看到你负责任地发送报单。"
+			},
+			"canceledOrders":{
+				"tabName":"已撤销报单",
+				"highImpact":"高度关联",
+				"info":"你撤销了超过一半的报单",
+				"warn":"监管部门通常希望看到你那部分刻意撤销的报单是负责任的。"
+			},
+			"disciplinaryActions":{
+				"tabName":"违规行为",
+				"highImpact":"极高度关联",
+				"info":"注意!",
+				"warn":"最好避免违规行为 - 他们将在你的报告上持续存在7到10年。"
+			},
+			"sipReputation":{
+				"tabName":"SIP 积分",
+				"lowImpact":"低关联",
+				"info":"恭喜您在 SIP 上获得积分!",
+				"warn":"您的参与非常有价值，其他交易者也将参与对您的评分。您的 SIP 积分具有真正的价值!"
+			}
+	},
+	"traderLogin":{
+		"title":"个人及企业登录",
+		"register":"还没有 PoET 地址？ 注册",
+		"emailPlaceHolder":"PoET 地址 或者 邮箱地址",
+		"rememberAddress":"记住我的邮箱地址",
+		"password":"密码",
+		"submit":" 登录",
+		"forgotPassword":"忘记密码?"
+	},
+	"regulatorLogin":{
+		"title":"监管部门登录"
+	},
+	"poetExplorerLogin":{
+  		"title":"我的 PoET 登录"
+ 	},
+	"regulatorPotral":{
+		"WatchLists":{
+			"tabName":"监控名单"
+		},
+		"AddressAudit":{
+			"tabName":"PoET 地址审计",
+			"ordersendinghashes":"报单发送哈希",
+			"ethereumTxHash":" 以太坊交易哈希",
+			"universaTxHash":"秘猿科技交易哈希",
+			"hyperchainTxHash":"趣链交易哈希",
+			"violationRecords":"违规记录",
+			"date":"日期",
+			"violation":" 违规",
+			"disciplinaryAction":"处罚措施",
+			"officialWarning":"正式警告记过",
+			"Fined":"罚款",
+			"possibleConcertedAccounts":"可能的关联账号",
+			"Addresses":"PoET 地址",
+			"tcs":"交易信用积分"
+		}
+		},
+		"foot":{
+		   "title":"由运行在<span class='Slogan'><a href='https://microscope.cryptape.com/#/' target='_blank' class='menucolor'>秘猿科技</a></span>以及以太坊上之上的P<span class='lightred--text'><i>o</i></span>ET 提供技术支持",
+		   "aboutUs":"关于我们",
+		   "terms":"条款",
+		   "privacy":"隐私",
+		   "contact":"联系我们",
+		   "api":"API",
+		   "download":"下载",
+		   "IOBToken":"IOB Token",
+		   "aLLRightsReserved":"版权所有"
+	 },
+	 "home":{
+		 "text":"报单及成交记录证明协议，一个多链，多个金融市场的合规交易协议，将展现市场所有的成交记录以及被撤销的报单。",
+		 "title":"检测到全球金融市场操纵订单",
+		 "table":{
+			"instrument":"品种",
+			"date":"日期",
+			"time":"时间(UTC)",
+			"volume":"成交量",
+			"bid":"卖单",
+			"ask":"买单",
+			"orderResult":"成交结果",
+			"notes":"备注"
+		}
+	},
+	"userRequest":{
+		"submitRequest":"提交请求",
+		"issue":"问题类型",
+		"name":"姓名",
+		"email":"邮箱",
+		"nameHint":"姓名是必填的",
+		"emailHint":"邮箱地址是必填的",
+		"subject":"主题",
+		"subjectHint":"标题请简单描述问题。",
+		"description":"描述",
+		"descriptionHint":"请输入您请求的详情。",
+		"issueSelect":{
+			"account":"账户",
+			"password":"密码",
+			"googleAuth":"两步验证",
+			"wallet":"钱包",
+			"other":"其他"
+		},
+		"rules":{
+			"issue":{
+				"required":"请选择一个问题类型"
+			},
+			"name":{
+				"required":"姓名是必填的"
+			},
+			"regEmail":{
+				"required":"邮箱地址是必填的",
+				"valid":"邮箱地址必须是有效的"
+			},
+			"subject":{
+				"required":"主题是必填的",
+				"valid":"字符长度超出限制"
+			},
+			"description":{
+				"required":"描述是必填的",
+				"valid":"字符长度超出限制"
+			}
+		},
+		"submitSuccessTitle":"提交成功",
+		"submitSuccessDesc":"您的请求已成功提交。"
+	}
+}

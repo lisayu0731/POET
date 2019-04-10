@@ -1,0 +1,276 @@
+{
+	"common":{
+		"filters":"Filters",
+		"timeRange":"Time Range",
+		"dateRange":"Date Range",
+		"priceRange":"Price Range",
+		"banSelection":"Please select the date first!",
+		"ok":"OK",
+		"executed":"Executed",
+		"canceled":"Canceled",
+		"all":"All",
+		"matched":"Matched",
+		"profile":"Profile",
+		"signOut":"Sign out",
+		"language":"Language",
+		"languagename":"English",
+		"darkTheme":"Dark theme",
+		"setting":"Settings",
+		"sendFeedback":"Send feedback",
+		"loginFailed":"Login failed!",
+		"submit":"Submit",
+		"success":"Success",
+		"fail":"Fail"
+	},
+	"menu":{
+		"dark":"Dark",
+		"light":"Light"
+	},
+	"page404":{
+		"pageNotFound":"PAGE NOT FOUND",
+		"hintMessage":"It seems we couldn't find the page you are looking for. Please check to make sure you've typed the URL correctly.",
+		"homepageButton":"BACK TO HOMEPAGE"
+	},
+	"page500":{
+		"serverError":"SORRY, SERVER ERROR",
+		"hintMessage":"The server may have a problem, our engineers are working hard to repair, please try later.",
+		"homepageButton":"BACK TO HOMEPAGE"
+	},
+	"traderHeader":{
+		"home":"Home",
+		"scheduleADemo":"Schedule a demo",
+		"poetExplorer":"P<span class='lightred--text'><i>o</i></span>ET Explorer",
+		"poetOrderHistory":"P<span class='lightred--text'><i>o</i></span>ET Order History",
+		"poetOrderReplay":"PoET Order Replay",
+		"PoetOrderHashes":"PoET Order Hashes",
+		"traderCreditScore":"Trader Credit Score (TCS)",
+		"traderMyOrderHistory":"My Order History",
+		"traderMyOrderHashes":"My Order Hashed",
+		"traderPortal":"Trader Portal",
+		"login":"Login",
+		"selectTheme":"Select Style"
+	},
+	"regulatorHeader":{
+		"home":"Home",
+		"RegulatorLogin":"Regulator Portal Login",
+		"watchlist":"Watchlists",
+		"PoETAddressAudit":"PoET Address Audit"
+	},
+	"order":{
+		"orderReplay":{
+			"title":"P<span class='lightred--text'><i>o</i></span>ET Order Replay",
+			"TabName":"PoET Order Replay",
+			"searchPlaceHolder":"Search by instrument id / stock ticker symbol / serial number / blockchain address / txhash",
+			"binance":"Binance",
+			"lastPrice":"Last price",
+			"change":"24h Change",
+			"high":"24h High",
+			"low":"24h Low",
+			"volume":"24h Volume",
+			"right":{
+				"search":"Search",
+				"change":"Change",
+				"volume":"Volume",
+				"pair":"Pair",
+				"price":"Price",
+				"tradeHistory":"Trade History"
+			}
+		},
+		"orderHistory":{
+			"title":"P<span class='lightred--text'><i>o</i></span>ET Explorer - Enquiries & Trades: The Complete Order History",
+			"TabName":"PoET Order History",
+			"kraken":"Kraken",
+			"date":"Date",
+			"time":"Time",
+			"volume":"Volume",
+			"bid":"Bid",
+			"ask":"Ask",
+			"orderResult":"Order Result",
+			"notes":"Notes"
+		},
+		"orderHashes":{
+			"title":"P<span class='lightred--text'><i>o</i></span>ET Order Hashes",
+			"TabName":"PoET Order Hashes",
+			"kraken":"Kraken",
+			"date":"Date",
+			"ethereumTxHash":"Ethereum TxHash",
+			"universaTxHash":"Nervos TxHash"
+		}
+	},
+	"mytcs":{
+		"address":"Address",
+		"mytcs":{
+			"tabName":"My Trader Credit Score",
+			"traderTitle":"Trader Credit Score (TCS)",
+			"message":"You have a poor credit",
+			"status":{
+				"bad":"Bad",
+				"poor":"Poor",
+				"fair":"Fair",
+				"good":"Good",
+				"excellent":"Excellent"
+			},
+			"chartsLabel":{
+			"disciplinaryActions":"Disciplinary<br><span style='font-weight:100;font-size:13px;'>Action</span>",
+			"sipPower":"SIP",
+			"creditAge":"Credit<br><span style='font-weight:100;font-size:13px;'>Age</span>",
+			"ordersHashed":"Orders<br><span style='font-weight:100;font-size:13px;'>Hashed</span>",
+			"canceledOrders":"Canceled<br><span style='font-weight:100;font-size:13px;'>Orders</span>"
+			},
+			"updated":"Updated on February 20, 2019"
+		},
+		"myOrderHistory":{
+			"tabName":"My Order History ",
+			"date":"Date",
+			"time":"Time (+UTC)",
+			"market":"Market",
+			"instrument":"Instrument",
+			"volume":"Volume",
+			"bid":"Bid",
+			"ask":"Ask",
+			"orderResult":"Order result",
+			"notes":"Notes"
+		},
+		"myOrderHashes":{
+			"tabName":"My Order Hashes"
+		}
+	},
+	"tscInfo":{
+			"creditFactors":"Your Credit Factors",
+			"help":"Take a look at your credit factors to see how you could improve.",
+			"viewDatils":"view details",
+			"myTSC":"Back to My Trader Credit Score (TCS) ",
+			"creditAge":{
+				"tabName":"Credit Age",
+				"mediumImpact":"Medium Impact",
+				"info":"Your credit history looks pretty new.",
+				"warn":"Regulators typically like to see that you have experience trading responsibly."
+			},
+			"ordersHashed":{
+				"tabName":"Orders Hashed ",
+				"highImpact":"High Impact",
+				"info":"There’s a solid number of orders hashed on your report.",
+				"warn":"Regulators typically like to see that you have sent a variety of orders responsibly."
+			},
+			"canceledOrders":{
+				"tabName":"Canceled Orders",
+				"highImpact":"High Impact",
+				"info":"Over half of your orders were canceled by you",
+				"warn":"Regulators typically like to see that you have intentionally canceled orders responsibly."
+			},
+			"disciplinaryActions":{
+				"tabName":"Disciplinary Actions",
+				"highImpact":"Very high Impact",
+				"info":"Be careful!",
+				"warn":"Disciplinary actions are good to avoid - they can stay on your report for 7-10 years."
+			},
+			"sipReputation":{
+				"tabName":"SIP reputation",
+				"lowImpact":"Low Impact",
+				"info":"Nice that you’ve earned Power on SIP!",
+				"warn":"Your participation has value, and you’re rated by other traders. Your SIP Power has real value!"
+			}
+	},
+	"traderLogin":{
+		"title":"Trader log in",
+		"register":"Don’t have a PoET Address?",
+		"emailPlaceHolder":"PoET or email address",
+		"rememberAddress":"Remember my email address",
+		"password":"Password",
+		"submit":"Submit",
+		"forgotPassword":"Forgot password?"
+	},
+	"regulatorLogin":{
+		"title":"Regulator log In"
+	},
+	"poetExplorerLogin":{
+  		"title":"My PoET log in"
+ 	},
+	"regulatorPotral":{
+		"WatchLists":{
+			"tabName":"Watch Lists"
+		},
+		"AddressAudit":{
+			"tabName":"PoET Address Audit",
+			"ordersendinghashes":"Order Sending Hashes",
+			"ethereumTxHash":"Ethereum TxHash",
+			"universaTxHash":"Nervos TxHash",
+			"hyperchainTxHash":"HyperchainTxHash",
+			"violationRecords":"Violation records",
+			"date":"Date",
+			"violation":"Violation",
+			"disciplinaryAction":"Disciplinary Action",
+			"officialWarning":"Official Warning",
+			"Fined":"Fined",
+			"possibleConcertedAccounts":"Possible Concerted Accounts",
+			"Addresses":"PoET Addresses",
+			"tcs":"TCS"
+		}
+	},
+	"foot":{
+		   "title":"Powered by P<span class='lightred--text'><i>o</i></span>ET <br>on <span class='Slogan'><a class='menucolor' href='https://microscope.cryptape.com/#/' target='_blank'>Nervos</a> </span>and Ethereum Blockchains",
+		   "aboutUs":"About us",
+		   "terms":"Terms",
+		   "privacy":"Privacy",
+		   "contact":"Contact",
+		   "api":"API",
+		   "download":"Download",
+		   "IOBToken":"IOB Token",
+		   "aLLRightsReserved":"ALL rights reserved"
+ 	},
+	"home":{
+		"text":" Proof <span class='lightred--text'>of</span> Enquires & Trades, the multichain, multimarket compliance trading protocol that reveals both reported trades and canceled orders.",
+		"title":"worldwide financial market manipulative orders detected",
+		"table":{
+			"instrument":"Instrument",
+			"date":"Date",
+			"time":"Time(UTC)",
+			"volume":"Volume",
+			"bid":"Bid",
+			"ask":"Ask",
+			"orderResult":"Order Result",
+			"notes":"Notes"
+		}
+	},
+	"userRequest":{
+		"submitRequest":"Submit a request",
+		"issue":"Issue",
+		"name":"Name",
+		"email":"E-mail",
+		"nameHint":"Name is required",
+		"emailHint":"E-mail is required",
+		"subject":"Subject",
+		"subjectHint":"Briefly describe your problem in the Subject field.",
+		"description":"Description",
+		"descriptionHint":"Please enter the details of your request.",
+		"issueSelect":{
+			"account":"Account",
+			"password":"Password",
+			"googleAuth":"Google Auth(2FA)",
+			"wallet":"Wallet",
+			"other":"Other"
+		},
+		"rules":{
+			"issue":{
+				"required":"Please select a issue"
+			},
+			"name":{
+				"required":"Name is required"
+			},
+			"regEmail":{
+				"required":"E-mail is required",
+				"valid":"E-mail must be valid"
+			},
+			"subject":{
+				"required":"Subject is required",
+				"valid":"Character length exceeds limit"
+			},
+			"description":{
+				"required":"Description is required",
+				"valid":"Character length exceeds limit"
+			}
+		},
+		"submitSuccessTitle":"Submitted successfully",
+		"submitSuccessDesc":"Your request has been submitted successfully."
+	}
+}
